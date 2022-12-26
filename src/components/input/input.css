@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html, body {
+    background-color: rgb(247, 250, 252);
+    font-family: sa;
+}
+.text-field{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 30%;
+    margin-top: 150px;
+    line-height: 0;
+    color: #fdfdfd;
+}
+.text-field input{
+    height: 42px;
+    margin-bottom: auto;
+    font-size: 15px;
+}
+.supporttext{
+    width:100%;
+    margin-top: 40%;
+}
+.filled input{
+    position: fixed;
+    font-size: 15px;
+    height: 60px;
+    width: 300px;
+    outline: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px rgb(152, 150, 150);
+}
+.filled{
+ position: relative;
+ padding: 0px 42em;
+ line-height: 40px;
+ border: 0;
+}
+label{
+    position: absolute;
+    bottom: 0.80em;
+    left: 42em;
+    display: none;
+    color: #424242;
+    text-align: center;
+    cursor: text;
+    transition: 0.3s ease-in-out;
+    transform-origin: 0 0;
+}
+.outlined input{
+    position: fixed;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 3px solid rgb(81, 80, 80);
+    border-left: 3px solid rgb(81, 80, 80);
+    outline: none;
+    height: 60px;
+    width: 300px;
+    box-shadow: 1px 1px 1px rgb(152, 150, 150);
+}
+.outlined{
+    position: relative;
+    margin-top: 10em;
+    padding: 0px 42em;
+    line-height: 0px;
+}
+input:focus + label{
+    color: #424242;
+    font-size: -75em;
+    top: -25px;
+    pointer-events: none;
+    cursor: text;
+    transition: 0.3s ease-in-out;
+    transform: translateY(-9em) scale(0.8);
+}
+/*.inputs{
+   position: absolute;
+   align-items: center;
+   justify-items: center;
+   top: 10em;
+   left: 44em;
+   gap: 10em;
+}
+ #outlined-basic{
+    background-color: #fdfdfd;
+    height: 30px;
+    position: relative;
+}
+#filled-basic{
+    background-color: #fdfdfd;
+    height: 28px;
+}
+#standard-basic{
+    background-color: #fdfdfd;
+    height: 33px;
+}*/
